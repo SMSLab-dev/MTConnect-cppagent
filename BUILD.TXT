@@ -1,0 +1,25 @@
+
+Microsoft windows:
+
+Download CMake:
+  http://www.cmake.org/cmake/resources/software.html
+
+Install CMake.
+
+Start CMake, and edit the following fields:
+  Where is the source code: The cppagent root directory 
+  Where to build the binaries: <cppagent root>/build
+
+Click Configure
+  Select Visual Studio 2008 or 2010
+  And keep Use default native compilers
+
+Click Configure again to accept the installation location
+
+Click Generate
+
+This will create a build directory below the source directory with a MS Windows
+project in place. Open the agent.sln in your build directory. Build your solution
+as normal.
+
+For more information, see the cmake web site for more configuration options.

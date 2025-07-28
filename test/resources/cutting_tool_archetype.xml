@@ -1,0 +1,4 @@
+<CuttingToolArchetype assetId="KSSP300R4SD43L240" timestamp="2001-12-17T09:30:47Z" deviceUuid="7800f530-34a9" toolId="1">
+  <Description>Cutting tool ...</Description>
+  <CuttingToolDefinition format="EXPRESS">Some Express...</CuttingToolDefinition>
+</CuttingToolArchetype> 

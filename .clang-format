@@ -1,0 +1,53 @@
+BasedOnStyle: Google
+Language: Cpp
+Standard: c++17
+ColumnLimit: 100
+NamespaceIndentation: All
+AccessModifierOffset: -2
+AllowShortBlocksOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+AllowShortCaseLabelsOnASingleLine: false
+AllowShortFunctionsOnASingleLine: true
+AllowShortIfStatementsOnASingleLine: false
+ConstructorInitializerIndentWidth: 2
+ContinuationIndentWidth: 4
+SpaceBeforeCpp11BracedList: true
+AlignEscapedNewlines: true
+BreakStringLiterals: true
+BinPackParameters: true
+BinPackArguments: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterCaseLabel:  true
+  AfterClass:      true
+  AfterControlStatement: Always
+  AfterEnum:       true
+  AfterFunction:   true
+  AfterNamespace:  false
+  AfterObjCDeclaration: true
+  AfterStruct:     true
+  AfterUnion:      true
+  AfterExternBlock: true
+  BeforeCatch:     true
+  BeforeElse:      true
+  BeforeLambdaBody: false
+  BeforeWhile:     false
+  IndentBraces:    false
+  SplitEmptyFunction: false
+  SplitEmptyRecord: false
+  SplitEmptyNamespace: true
+IncludeCategories:
+  - Regex:           '^("|<)boost/'
+    Priority:        1
+  - Regex:           '^<boost/asio.+'
+    Priority:        -1
+  - Regex:           '^("|<)date/'
+    Priority:        2
+  - Regex:           '^("|<)libxml/'
+    Priority:        4
+  - Regex:           '^("|<)nlohmann/'
+    Priority:        5
+  - Regex:           '^<.+'
+    Priority:        2
+  - Regex:           '.*'
+    Priority:        8
